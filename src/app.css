@@ -10,3 +10,23 @@ body {
     width: 100%;
     margin-top: 10px;
 }
+
+/*@keyframes slideshow {
+    0% { background-image: url('../images/unsplash_6-adg66qleM.png'); }
+    20% { background-image: url('../images/unsplash_dECn_W4b8qQ.png'); }
+    40% { background-image: url('../images/unsplash_DP0LMBAIzZQ.png'); }
+    60% { background-image: url('../images/unsplash_VURwPtZqyF4.png'); }
+    80% { background-image: url('../images/unsplash_WtolM5hsj14.png'); }
+    100% { background-image: url('../images/unsplash_yx5Apt60SXU.png'); }
+}*/
+
+.slideshow-container {
+    background-image: url('../images/unsplash_yx5Apt60SXU.png');
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: slideshow;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+}

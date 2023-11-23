@@ -1,0 +1,18 @@
+{
+  "name": "minimal_blog_site_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "build": "tailwindcss -i ./src/app.css -o ./assets/css/output.css",
+    "watch": "tailwindcss -i ./src/app.css -o ./assets/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "tailwindcss": "^3.3.5"
+  }
+}

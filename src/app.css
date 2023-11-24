@@ -39,11 +39,25 @@ body {
 
 .slideshow-container {
     background-image: url('../images/unsplash_yx5Apt60SXU.png');
-    /*background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation-name: slideshow;
+    /*animation: float 4s ease-in-out infinite;
+    transform: translatey(0px);
+    /*animation-name: slideshow;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;*/
 }
+
+/*@keyframes float {
+    0% {
+      transform: translatey(30px);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(30px);
+    }
+}*/

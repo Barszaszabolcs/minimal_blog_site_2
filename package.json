@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./index.html",
-    "build": "tailwindcss -i ./src/app.css -o ./assets/css/output.css",
+    "tailwind": "tailwindcss -i ./src/app.css -o ./assets/css/output.css",
     "watch": "tailwindcss -i ./src/app.css -o ./assets/css/output.css --watch"
   },
   "keywords": [],

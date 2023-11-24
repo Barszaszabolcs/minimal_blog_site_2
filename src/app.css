@@ -28,26 +28,25 @@ body {
     padding-right: 20px;
   }
 
-/*@keyframes slideshow {
-    0% { background-image: url('../images/unsplash_6-adg66qleM.png'); }
-    20% { background-image: url('../images/unsplash_dECn_W4b8qQ.png'); }
-    40% { background-image: url('../images/unsplash_DP0LMBAIzZQ.png'); }
-    60% { background-image: url('../images/unsplash_VURwPtZqyF4.png'); }
-    80% { background-image: url('../images/unsplash_WtolM5hsj14.png'); }
-    100% { background-image: url('../images/unsplash_yx5Apt60SXU.png'); }
-}*/
-
 .slideshow-container {
     background-image: url('../images/unsplash_yx5Apt60SXU.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*animation: float 4s ease-in-out infinite;
-    transform: translatey(0px);
-    /*animation-name: slideshow;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;*/
+}
+
+.slideshow-container2 {
+    background-image: url('../images/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow-container3 {
+    background-image: url('../images/bg-5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .main__animation {

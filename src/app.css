@@ -50,14 +50,16 @@ body {
     animation-direction: alternate;*/
 }
 
-/*@keyframes float {
-    0% {
-      transform: translatey(30px);
+.main__animation {
+    animation: shake 1s ease-in-out .1s infinite alternate;
+}
+
+@keyframes shake {
+    from{
+        transform: rotate(15deg);
     }
-    50% {
-      transform: translatey(-10px);
+    to{
+        transform: rotate(-15deg);
+        transform-origin: center center;
     }
-    100% {
-      transform: translatey(30px);
-    }
-}*/
+}

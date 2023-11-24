@@ -11,6 +11,23 @@ body {
     margin-top: 10px;
 }
 
+.main__ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+.main__li {
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-bottom: 20px;
+  }
+  
+.main__li:before {
+    content: "+";
+    padding-right: 20px;
+  }
+
 /*@keyframes slideshow {
     0% { background-image: url('../images/unsplash_6-adg66qleM.png'); }
     20% { background-image: url('../images/unsplash_dECn_W4b8qQ.png'); }
